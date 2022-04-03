@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:black;
+}
+.container{
+    position: absolute;
+    width: 100vw;
+    height: 45vw;
+    background: linear-gradient(grey, black);
+    overflow-y: hidden;
+    perspective: 600px;
+
+}
+.container .imag img{
+    position: absolute;
+    right: 0px;
+    width: 42vw;
+    left: 28.5%;
+    bottom: 0px;
+    top: 0px;
+    animation: mymove 4s;
+    
+}
+.container .imag .img:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+        
+}
+
+@keyframes mymove{
+0% {opacity: 0;}
+10% {opacity: 0.1;}
+20% {opacity: 0.2;}
+30% {opacity: 0.3;}
+40% {opacity: 0.4;}
+50% {opacity: 0.5;}
+60% {opacity: 0.6;}
+70% {opacity: 0.7;}
+80% {opacity: 0.8;}
+90% {opacity: 0.9;}
+100%  {opacity: 1 ;} 
+
+}
+
+@media  screen and (max-width:425px){
+    .container{
+   
+    height: 100%;
+    
+    }
+    .container .imag img{
+    position: absolute;
+    right: 0px;
+    width: 98vw;
+    left:0;
+    bottom: 0px;
+    top: 95px;
+    
+    }   
+
+
+
+
+
+
+}
