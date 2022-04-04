@@ -19,7 +19,7 @@ body{
     left: 28.5%;
     bottom: 0px;
     top: 0px;
-    animation: mymove 4s;
+    animation: mymove 1s;
     
 }
 .container .imag .img:hover{
@@ -34,7 +34,7 @@ body{
 @keyframes mymove{
 0% {opacity: 0;}
 10% {opacity: 0.1;}
-20% {opacity: 0.2;}
+25% {opacity: 0.2;}
 30% {opacity: 0.3;}
 40% {opacity: 0.4;}
 50% {opacity: 0.5;}
